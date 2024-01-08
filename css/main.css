@@ -1,6 +1,6 @@
 /* 프로모션 */
 section#promotion {
-  background-color: #fff;
+  background-color: #f5ecdc;
 }
 section#promotion .wrap {
   height: 100%;
@@ -117,8 +117,11 @@ section#products .wrap div ul li p {
 }
 section#products .wrap div ul li img {
   
+  border-radius: 20px;
+  box-shadow: 0px 1px 5px #ccc;
 }
 section#products .wrap div ul li a {
+  margin-top: 10px;
 }
 section#products .wrap div {
   height: 100%;
@@ -138,6 +141,7 @@ section#products .wrap div article h3 {
   grid-column: 1;
   font-size: 30px;
   text-align: center;
+  padding: 10px;
 }
 section#products .wrap div article figure{
   grid-column: 1; 
@@ -149,7 +153,8 @@ section#products .wrap div article figure{
   /*! z-index: -1; */
 }
 section#products .wrap div article figure img{
-  
+  border-radius: 20px;
+  box-shadow: 0px 1px 10px #ccc;
 }
 section#products .wrap div article p {
   grid-column: 1;
