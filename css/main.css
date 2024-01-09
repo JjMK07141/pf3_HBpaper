@@ -216,10 +216,10 @@ section#news .wrap p {
   
 }
 section#news .wrap ul {
-  grid-column: 2;
-  grid-row: 1 / span 5;
+  grid-column: 1;
+  grid-row: 4;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   grid-template-rows: auto auto auto auto auto;
   row-gap: 20px;
   column-gap: 20px;
@@ -236,13 +236,28 @@ section#news .wrap ul li:nth-child(2){
   grid-row: 2;
 }
 section#news .wrap ul li:nth-child(3){
-  grid-row: 3;
   grid-column: 1 / span 4;
-  
+  grid-row: 3;
 }
 section#news .wrap ul li:nth-child(4){
   grid-column: 1 / span 4;
   grid-row: 4;
+}
+section#news .wrap ul li:nth-child(5){
+  grid-column: 2;
+  grid-row: 1;
+}
+section#news .wrap ul li:nth-child(6){
+  grid-column: 3;
+  grid-row: 1;
+}
+section#news .wrap ul li:nth-child(7){
+  grid-column: 2;
+  grid-row: 2;
+}
+section#news .wrap ul li:nth-child(8){
+  grid-column: 3;
+  grid-row: 2 / span 4;
 }
 section#news .wrap ul li a {
   
