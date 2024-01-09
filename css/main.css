@@ -9,6 +9,7 @@ section#promotion .wrap {
 section#promotion .wrap h2 {
   text-align: left;
   width: 100%;
+  color: #054016;
 }
 section#promotion .wrap p {
   margin-bottom: 15px;
@@ -32,6 +33,7 @@ section#business .wrap {
 section#business .wrap h2 {
   text-align: left;
   width: 100%;
+  color: #054016;
 }
 section#business .wrap p {
   margin-bottom: 30px;
@@ -80,11 +82,9 @@ section#business .wrap ul li a > p {
 /* 프로덕트 */
 section#products{
   
-  background-color: #ccc;
 }
 section#products .wrap {
   height: 100%;
-  /*! overflow: hidden; */
 }
 section#products .wrap h2 {
   position: relative;
@@ -93,14 +93,15 @@ section#products .wrap h2 {
   font-size: 40px;
   width: 12%;
   z-index: 1;
+  color: #054016;
 }
 section#products .wrap div ul {
   width: 70%;
-  margin: 40px 0; 
-  gap: 50px 30px;
+  /*! margin: 40px 0; */ 
+  gap: 50px 40px;
   position: absolute;
   left: 35%;
-  bottom: 10%;
+  bottom: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -139,7 +140,7 @@ section#products .wrap div ul li h3 {
 section#products .wrap div ul li p {
   display: flex;
   flex-direction: column;
-  font-size: 15px;
+  padding-bottom: 10px;
 }
 section#products .wrap div ul li img {
   border-radius: 20px;
@@ -206,6 +207,7 @@ section#news .wrap {
 }
 section#news .wrap h2 {
   
+  color: #054016;
 }
 section#news .wrap h3 {
   
