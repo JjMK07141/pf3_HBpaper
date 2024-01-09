@@ -80,6 +80,7 @@ section#business .wrap ul li a > p {
 /* 프로덕트 */
 section#products{
   
+  background-color: #ccc;
 }
 section#products .wrap {
   height: 100%;
@@ -91,32 +92,56 @@ section#products .wrap h2 {
   left: 690px;
   font-size: 40px;
   width: 12%;
+  z-index: 1;
 }
 section#products .wrap div ul {
+  width: 70%;
   margin: 40px 0; 
-  display: flex;
-  flex-wrap: wrap-reverse;
-  gap: 85px 45px;
-  align-content: space-between;
-  width: 60%;
+  gap: 50px 30px;
   position: absolute;
-  left: 44%;
+  left: 35%;
+  bottom: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 section#products .wrap div ul li {
-  width: 30%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 5px;
-  height: calc(100% / 6);
+
+}
+section#products .wrap div ul li:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+section#products .wrap div ul li:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+section#products .wrap div ul li:nth-child(3) {
+  grid-column: 3;
+  grid-row: 1;
+}
+section#products .wrap div ul li:nth-child(4) {
+  grid-column: 1;
+  grid-row: 2;
+}
+section#products .wrap div ul li:nth-child(5) {
+  grid-column: 2;
+  grid-row: 2;
+}
+section#products .wrap div ul li:nth-child(6) {
+  grid-column: 3;
+  grid-row: 2;
 }
 section#products .wrap div ul li h3 {
-  
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 section#products .wrap div ul li p {
-  
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
 }
 section#products .wrap div ul li img {
-  
   border-radius: 20px;
   box-shadow: 0px 1px 5px #ccc;
 }
@@ -128,13 +153,14 @@ section#products .wrap div {
   position: relative;
 }
 section#products .wrap div article {
-  width: 35%;
+  width: 30%;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto;
   column-gap: 20px;
   row-gap: 10px;
-  margin-top: 160px;
+  position: absolute;
+  bottom: 20%;
 }
 section#products .wrap div article h3 {
   grid-row: 2;
@@ -146,11 +172,9 @@ section#products .wrap div article h3 {
 section#products .wrap div article figure{
   grid-column: 1; 
   grid-row: 1; 
-  /*! position: absolute; */
   top: 35px;
   width: 100%;
   height: 100%;
-  /*! z-index: -1; */
 }
 section#products .wrap div article figure img{
   border-radius: 20px;
