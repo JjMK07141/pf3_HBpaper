@@ -8,7 +8,7 @@ footer .wrap {
   position: relative;
   max-width: 100%;
   padding: 0 calc((100% - 1520px) / 2);
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 footer .wrap h1 {
 
@@ -62,7 +62,7 @@ footer .wrap a.blog {
 }
 footer .wrap address {
   width: 100%;
-  color: #ccc;
+  color: #828282;
 }
 footer .wrap address::before{
   content: "";  
@@ -74,4 +74,6 @@ footer .wrap address::before{
 }
 footer .wrap  p {
   color: #ccc;
+  padding-top: 15px;
+  font-size: 14px;
 }

@@ -1,5 +1,6 @@
 #title {
-  background-color: #e4e2e2;
+  /*! background-color: #e4e2e2; */
+  background: linear-gradient(to right, #f5ecdc 30%, #939f7eba);
 }
 #title .wrap {
   height: 100%;
@@ -15,7 +16,7 @@
   display: none;
 }
 #title .wrap .witem1{
-  background-image: url(../img/title_01.jpg);
+  background-image: url(../img/fore.jpg);
   color: white;
 }
 #title .wrap .witem2{
