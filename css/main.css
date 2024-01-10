@@ -11,6 +11,7 @@ section#promotion .wrap h2 {
   text-align: left;
   width: 100%;
   color: #054016;
+  font-size: 30px;
 }
 section#promotion .wrap p {
   margin-bottom: 15px;
@@ -36,6 +37,7 @@ section#business .wrap h2 {
   text-align: left;
   width: 100%;
   color: #054016;
+  font-size: 30px;
 }
 section#business .wrap p {
   margin-bottom: 30px;
@@ -90,9 +92,9 @@ section#products .wrap {
 }
 section#products .wrap h2 {
   position: relative;
-  top: 14.4%;
+  top: 17%;
   left: 10%;
-  font-size: 40px;
+  font-size: 30px;
   width: 13%;
   z-index: 1;
   color: #054016;
@@ -209,10 +211,10 @@ section#news .wrap {
   row-gap: 20px;
 }
 section#news .wrap h2 {
-  
   color: #054016;
   grid-column: 1;
   grid-row: 1;
+  font-size: 30px;
 }
 section#news .wrap h3 {
   
