@@ -1,6 +1,6 @@
 #title {
-  /*! background-color: #e4e2e2; */
-  background: linear-gradient(to right, #f5ecdc 30%, #939f7eba);
+  background-color: #e4e2e2;
+  /*! background: linear-gradient(to right, #f5ecdc 30%, #939f7eba); */
 }
 #title .wrap {
   height: 100%;
@@ -27,10 +27,12 @@
 }
 #title .wrap h2 {
   padding: 25px 0px;
+  color: #fff6ec;
 }
 #title .wrap h2 span{
   display: none;
 }
 #title .wrap p {
   padding: 20px 0px;
+  color: #fff6ec;
 }
