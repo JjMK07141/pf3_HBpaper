@@ -38,12 +38,12 @@ section#promotion .wrap p span{
 section#promotion .wrap::before {
   content: "PROMOTION VIDEO";
   font-size: 130px;
-  width: 100%;
+  width: 50%;
   display: block;
   opacity: 0.06;
   position: absolute;
   top: 10%;
-  right: -5%;
+  right: 50%;
 }
 section#promotion .wrap iframe {
   border: 1px solid #333;
@@ -75,7 +75,10 @@ section#business .wrap::before {
   display: block;
   opacity: 0.06;
   text-align: right;
-  padding-right: 80px;
+  /*! padding-right: 80px; */
+  width: 30%;
+  position: absolute;
+  left: 70%;
 }
 section#business .wrap h2 {
   text-align: right;
@@ -158,13 +161,12 @@ section#products .wrap {
 }
 section#products .wrap::before {
   content: "PRODUCTS";
-  font-size: 100px;
+  font-size: 120px;
   display: block;
   opacity: 0.06;
   position: absolute;
-  top: 5%;
-  left: -5%;
-  font-weight: 500;
+  top: 6%;
+  left: -13%;
 }
 section#products .wrap h2 {
   font-size: 35px;
@@ -200,6 +202,7 @@ section#products .wrap ul li img {
 }
 section#products .wrap ul li a {
   margin-top: 10px;
+  color: #555;
 }
 section#products .wrap {
   position: relative;
@@ -237,6 +240,7 @@ section#products .wrap article p {
 section#products .wrap article a {
   text-align: center;
   padding-top: 20px;
+  color: #555;
 }
 
 
@@ -255,6 +259,15 @@ section#news .wrap {
   row-gap: 20px;
   width: 100%;
 }
+section#news .wrap::before {
+  content: "NEWS & NOTICE";
+  font-size: 120px;
+  display: block;
+  opacity: 0.06;
+  position: absolute;
+  top: 10%;
+  right: 0%;
+}
 section#news .wrap h2 {
   color: #054016;
   grid-column: 1;
@@ -262,6 +275,7 @@ section#news .wrap h2 {
   font-size: 30px;
   opacity: 0.8;
   font-weight: 500;
+  display: none;
 }
 section#news .wrap h3 {
   grid-column: 1;
@@ -327,6 +341,7 @@ section#news .wrap ul li a time {
 }
 section#news .wrap a.more {
   position: absolute;
-  bottom: 30%;
+  bottom: 40%;
+  color: #555;
 }
 
